@@ -10,7 +10,7 @@ import React from "react";
 const PrimaryButton = ({ children, onClick, className = "", ...props }) => {
   return (
     <button
-      className={`text-xs px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 ${className}`}
+      className={`text-xs px-4 py-2 bg-primary-500 text-white rounded-lg hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 ${className}`}
       onClick={onClick}
       {...props}
     >
